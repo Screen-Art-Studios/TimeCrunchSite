@@ -1,13 +1,8 @@
 
 export default [
-  {
-    path: '/',
-    component: () => import('layouts/default'),
-    children: [
-      { path: '', component: () => import('pages/index') }
-    ]
-  },
-
+  { path: '/', component: () => import('pages/Home') },
+  { path: '/About', component: () => import('pages/About') },
+  { path: '/Contact', component: () => import('pages/Contact') },
   { // Always leave this as last one
     path: '*',
     component: () => import('pages/404')
