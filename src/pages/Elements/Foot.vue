@@ -17,10 +17,9 @@ export default {
 
 <style scoped>
 .Fmain {
-  height: 100px;
+  height: 30px;
   width: 100%;
   bottom: 0;
-  background-color: #444;
   position: fixed;
 }
 .social {
@@ -34,7 +33,6 @@ h3 {
   color: #999;
   font-size: .8em;
   text-align: center;
-  line-height: 20px;
 }
 
 </style>

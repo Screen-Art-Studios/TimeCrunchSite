@@ -2,11 +2,11 @@
     <div class="Navmain">
       <div class="header">
         <div class="TClogo" v-on:click="navToggle(); $router.push('/')"></div>
-      </div>
       <div class="buttonbox">
         <button class="About" v-on:click="navToggle(); $router.push('/About')">About</button>
         <button class="Contact" v-on:click="navToggle(); $router.push('/Contact')">Contact</button>
       </div>
+    </div>
     </div>
 </template>
 
@@ -43,27 +43,32 @@ export default {
 <style scoped>
 .Navmain {
   width: 100%;
-  height: 142px;
+  height: 20%;
   position: fixed;
+  background-color: white;
 }
 
 .header {
   height: 60px;
 }
  .TClogo {
+   margin-top: 30px;
    width: 100%;
-   height: 200px;
-   background-image: url('../assets/TClogo.svg');
+   height: 80px;
+   background-image: url('../../assets/TClogo.svg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 
  }
 .buttonbox {
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 button {
+  background-color: white;
+  margin-top: 30px;
   height: 50px;
   color: black;
   font-family: 'Open Sans', sans-serif;
