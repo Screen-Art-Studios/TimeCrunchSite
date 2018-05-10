@@ -31,7 +31,7 @@ export default {
 h1 {
   grid-column-start: 1;
   grid-column-end: 9;
-  grid-row: 2;
+  grid-row: 1;
   height: 40px;
    color: red;
    font-size: 2em;
@@ -93,5 +93,24 @@ h3 {
   background-color: #c22227;
   color: white;
   height: 120px;
+  line-height: 30px;
+}
+@media (min-width: 480px) {
+  video {
+    width: 90%;
+    margin-left: 5%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+@media (min-width: 700px) {
+  video {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
 }
 </style>
