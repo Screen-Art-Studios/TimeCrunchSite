@@ -2,7 +2,7 @@
   <div class="main">
     <h1>Time Is Money, Right?...</h1>
     <video src="../assets/Screens.mp4" autoplay></video>
-    <p class="bita">TimeCrunch is an effortless business solution designed to increase productivity and decrease needless time losses.</p>
+    <p class="bita">TripClock Mobile is an effortless business solution designed to increase productivity and decrease needless time losses.</p>
     <p class="bitb">Ensure your team is accomplishing your business goals by monitoring employees location and clock events throughout the work day.</p>
     <p class="bitc">Tired of disorganized files and tedious record-keeping?<br/> <strong>Optimize your mobile employee management in one place with TimeCrunch.</strong></p>
     <h2>Only $10 a Month<sup> Per User</sup></h2>
