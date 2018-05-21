@@ -3,8 +3,8 @@
       <div class="header">
         <div class="TClogo" v-on:click="navToggle(); $router.push('/')"></div>
       <div class="buttonbox">
-        <button class="About" v-on:click="navToggle(); $router.push('/About')">About</button>
-        <button class="Contact" v-on:click="navToggle(); $router.push('/Contact')">Contact</button>
+        <button class="About" v-on:click="navToggle(); $router.push('/About')">ABOUT</button>
+        <button class="Contact" v-on:click="navToggle(); $router.push('/Contact')">CONTACT</button>
       </div>
     </div>
     </div>
@@ -52,10 +52,10 @@ export default {
   height: 60px;
 }
  .TClogo {
-   margin-top: 30px;
+   margin-top: 20px;
    width: 100%;
-   height: 80px;
-   background-image: url('../../assets/TClogo.svg');
+   height: 110px;
+   background-image: url('../../assets/tripclockmobilelogo.svg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
